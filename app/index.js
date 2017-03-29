@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
+import { render } from 'react-dom';
+import App from './components/App'
 
-class HelloWorld extends Component {
-	render() {
-		return (
-            <h1>Meanwise Corporate Application</h1>
-        );
-	}
-}
-
-ReactDom.render(<HelloWorld />, document.getElementById('app'));
+render(
+    <App />,
+    document.querySelector('.content')
+);
