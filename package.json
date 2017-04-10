@@ -8,10 +8,6 @@
     "build": "gulp",
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JasonBoy/node-web-kit.git"
-  },
   "keywords": [
     "node",
     "web",
@@ -20,12 +16,6 @@
     "gulp",
     "starter-kit"
   ],
-  "author": "Jason Jiang <jasonlikenfs@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/JasonBoy/node-web-kit/issues"
-  },
-  "homepage": "https://github.com/JasonBoy/node-web-kit#readme",
   "dependencies": {
     "bluebird": "^3.3.4",
     "body-parser": "~1.16.1",
