@@ -311,7 +311,13 @@ a:hover, a:focus {
     }
 
     .globalnav-container {
-        margin-left: 60px;
+        margin-left: 30px;
+    }
+
+    .globalnav-icon img{
+        width: 64px;
+        margin-top: 25px;
+        margin-right: 40px;
     }
 
     .content-wrapper {
@@ -387,15 +393,14 @@ a:hover, a:focus {
     }
     
     .action input {
-        font-size: 20px;
         margin: 20px 10px 0;
         background-color: #6DD7FF;
-        color: #fafafa;
+        color: #fff;
         border: 0px;
         border-radius: 6px;
         font-weight: 200;
         font-style: normal;
-        font-size: 14px;
+        font-size: 15px;
         padding: 10px;
         text-align: center;
     }
@@ -466,6 +471,6 @@ footer span:last-child {
             -ms-flex-positive: 3;
                 flex-grow: 3;
         text-align: center;
-        padding-top: 10px;
+        margin-top: 22px;
     }
 } 
